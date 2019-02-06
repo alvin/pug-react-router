@@ -1,0 +1,8 @@
+{
+    "presets": ["@babel/react", ["@babel/env", { "modules": false }]],
+    "plugins": [
+        "transform-react-pug",
+        "@babel/transform-react-jsx",
+        "react-hot-loader/babel"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "pug-react-router",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server -d",
+    "build": "webpack -p"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@svgr/webpack": "^4.1.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-react-pug": "^7.0.0",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "pug": "^2.0.3",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-hot-loader": "^4.6.5",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
